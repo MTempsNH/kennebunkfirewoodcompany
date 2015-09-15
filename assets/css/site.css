@@ -1,0 +1,89 @@
+body {
+  background-color: #3e4142;
+  color: #fff;
+}
+/*.navbar .navbar-inner {*/
+/*  background-color: #3e4142;*/
+/*  background-image: -moz-linear-gradient(top, #3e4142, #3e4142);*/
+/*  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3e4142), to(#3e4142));*/
+/*  background-image: -webkit-linear-gradient(top, #3e4142, #3e4142);*/
+/*  background-image: -o-linear-gradient(top, #3e4142, #3e4142);*/
+/*  background-image: linear-gradient(to bottom, #3e4142, #3e4142);*/
+/*  background-repeat: repeat-x;*/
+/*  border-color: #252525;*/
+/*  border: none;*/
+/*}*/
+
+.navbar .brand {
+  color: #ffffff;
+  /*background-image: url("../img/logo-tree.png");*/
+  
+  background-repeat: no-repeat;
+  text-indent: 15px;
+}
+h3 {
+  line-height: 1;
+}
+.thumbnail {
+  border: 2px solid #6e7476;
+  border-radius: 0;
+  min-height: 350px;
+}
+.thumbnail .caption {
+  color: #fff;
+}
+.thumbnail .caption h3 {
+  color: #C0CACF;
+}
+.logo_container {
+  margin: 0 auto;
+}
+.navbar-fixed-top .container {
+  width: 700px;
+}
+
+@media (max-width: 979px) {
+  .navbar .container {
+    width: auto;
+  }
+}
+
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+.sectionTitle {
+  margin-top: 30px;
+  margin-bottom: 3px;
+}
+/* Main marketing message and sign up button */
+
+.jumbotron {
+  margin: 0;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 5px 0;
+  line-height: 1;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+.jumbotron .lead {
+  margin: 20px 0;
+}
+/* Supporting marketing content */
+
+.marketing {
+  margin: 60px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
